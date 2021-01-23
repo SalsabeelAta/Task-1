@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>first_task</title>
+        <meta charset="UTF-8" />
+        <style>
+            .d1{margin: 200px; background-color: #E7E7E7;}
+            .d2{background-color: black; color: white; padding: 2px;}
+            form{ border: 1px solid black; padding: 20px;}
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="d1">
+            <div class="d2">
+                <center><h2>Settings Form</h2></center>
+                
+            </div>
+            <div class="d3">
+                <h3 style="text-align: left; padding: 20px;">A sample message 11:06:10</h3>
+            </div>
+            <div class="d4">
+                <form >
+                    <label style="padding-right: 80px;">Number</label>
+                    <input type="nu" style="width: 70%;"/> <br><br>
+
+                    <label style="padding-right: 90px;">Range</label>
+                    <input type="number"style="width: 60px; " />
+                    <input type="range"  style="width: 60%;"/> <br><br>
+
+                    <label style="padding-right: 93px;">Email</label>
+                    <input type="text" style="width: 70%;"/> <br><br>
+
+                    <center><input style="width: 95%; height: 40px;" type="submit" value="Update" /></center> <br>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>
